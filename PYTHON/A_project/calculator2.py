@@ -7,3 +7,5 @@ print("Division of the given two numbers is",a/b)
 print("Divison answer in floar number is",a//b)
 print("Remainder of division is",a%b)
 print("num-2 is power of num-1 then the answer is",a**b)
+if(a==7 and b==7):
+    print("")
