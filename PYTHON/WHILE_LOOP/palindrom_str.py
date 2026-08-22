@@ -1,15 +1,14 @@
-word="racecdr"
-i=0
-j=len(word)-1
+word=input("Enter any letter or sentence: ")
+l=0
+r=len(word)-1
+is_Palindrome = True
 
-while i<j:
-    if(word[i]==word[j]):
-        i+=1
-        j-=1
-        print("It is a palindrom")
-        
-    else:
-        i+=1
-        j-=1
-        print("It is not a palindrom")
-        
+while l<r:
+
+    if word[l] != word[r]:
+        is_Palindrome=False
+    l+=1
+    r-=1
+
+print(f" Palindrome string: {is_Palindrome}")
+
