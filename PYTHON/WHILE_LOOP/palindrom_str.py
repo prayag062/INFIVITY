@@ -10,5 +10,6 @@ while l<r:
     l+=1
     r-=1
 
+
 print(f" Palindrome string: {is_Palindrome}")
 
