@@ -26,8 +26,6 @@ def k_to_f(k):
 
 
 
-
-
 def main():
     while True:
         option=int(input('''

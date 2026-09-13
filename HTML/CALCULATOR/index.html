@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="image_f9bea30a.jpg">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<body>
+    <section class="all">
+
+        <div class="calculator">
+            <!-- Calculator -->
+            <table>
+                <form name="frm">
+                    <tr>
+                        <td colspan="4">
+                            <input type="text" name="box" class="box">
+                        </td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="1" onclick="frm.box.value+='1'" class="buttons"></td>
+                    <td><input type="button" value="2" onclick="frm.box.value+='2'" class="buttons"></td>
+                    <td><input type="button" value="3" onclick="frm.box.value+='3'" class="buttons"></td>
+                    <td><input type="button" value="+" onclick="frm.box.value+='+'"" class="A"></td>
+                    
+                </tr>
+                <tr>
+                    <td><input type="button" value="4" onclick="frm.box.value+='4'" class="buttons"></td>
+                    <td><input type="button" value="5" onclick="frm.box.value+='5'" class="buttons"></td>
+                    <td><input type="button" value="6" onclick="frm.box.value+='6'" class="buttons"></td>
+                    <td><input type="button" value="-" onclick="frm.box.value+='-'"  class="A"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="7" onclick="frm.box.value+='7'" class="buttons"></td>
+                    <td><input type="button" value="8" onclick="frm.box.value+='8'" class="buttons"></td>
+                    <td><input type="button" value="9" onclick="frm.box.value+='9'" class="buttons"></td>
+                    <td><input type="button" value="*" onclick="frm.box.value+='*'"  class="A"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="C" onclick="frm.box.value=' '" class="C"></td>
+                    <td><input type="button" value="0" onclick="frm.box.value+='0'" class="buttons"></td>
+                    <td><input type="button" value="=" onclick="frm.box.value=eval(frm.box.value)" class="ans"></td>
+                    <td><input type="button" value="/" onclick="frm.box.value+='/'"  class="A"></td>
+                </tr>
+            </form>
+            
+        </table>
+    </div>
+</section>
+</body>
+</html>

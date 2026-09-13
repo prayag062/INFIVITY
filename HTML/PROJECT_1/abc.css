@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.all{
+    text-align: space-around;
+    height: 100vh;
+    border: 8px solid black;
+}
+
+.intro{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+.intro h1{
+    color: cyan;
+}
+
+.intro button{
+    background-color: transparent;
+    color: cyan;
+    font-size: 16px;
+    font-family: franklin gothic medium, sans-serif;
+    border: 6px solid cyan;
+    padding: 10px 20px;
+    margin-top: 5px;
+    border-radius: 5px;  
+    cursor: pointer;
+}
+
+.intro button:hover{
+    background-color: blue;
+    color: rgb(57, 39, 124);
+}
+
+.about h2{
+    font-size: 30px;
+    font-family: cursive;
+    color:cyan;
+}
+
+.about p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:thistle
+    
+}
+
+.about h5{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(225, 149, 225)
+}
+
+.skills{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.skills h2{
+    font-size: 35px;
+    font-family: cursive;
+    color:red;
+}
+
+.skills p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: indianred;       
+    margin-bottom: 20px;
+    
+}
+
+.skills li{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:khaki;
+    padding-bottom: 3px;
+}
+
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #111;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: -100%;
+  background-image: repeating-linear-gradient(
+    120deg,
+    transparent 0px,
+    transparent 80px,
+    rgba(255, 255, 255, 0.15) 81px,
+    transparent 82px
+  );
+  animation: falling 8s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes falling {
+  from {
+    transform: translateY(-200px);
+  }
+
+  to {
+    transform: translateY(200px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .skills {
+        font-size: 16px;
+    }
+}
